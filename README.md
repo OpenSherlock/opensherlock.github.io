@@ -1,8 +1,10 @@
-# Website
+# OpenSherlock Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Built using [Docusaurus 2](https://docusaurus.io/).
 
-### Installation
+To update content, make changes under the [docs](docs) directory, commit, and push to the main branch.
+
+### Setup
 
 ```
 $ npm ci
@@ -16,26 +18,24 @@ $ npm start
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Build
+### Build static bundle
 
 ```
-$ npm build
+$ npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
+### Test locally built static bundle
+
+```
+$ npm run serve
+```
+
 ### Deployment
 
-Using SSH:
+Though this is done automatically using GitHub Actions, use the following command to deploy an update to the `gh-pages` branch manually.
 
 ```
-$ USE_SSH=true npm deploy
+$ npm run deploy
 ```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> npm deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
