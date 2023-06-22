@@ -35,7 +35,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           editUrl:
-            'https://github.com/OpenSherlock/opensherlock.github.io',
+            'https://github.com/OpenSherlock/opensherlock.github.io/edit/main',
         },
         blog: false,
         theme: {
