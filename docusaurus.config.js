@@ -63,10 +63,19 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'defaultSidebar',
+            to: 'introduction',
             position: 'left',
-            label: 'Documentation',
+            label: 'Introduction',
+          },
+          {
+            to: 'roadmap',
+            position: 'left',
+            label: 'Roadmap',
+          },
+          {
+            to: 'collaboration',
+            position: 'left',
+            label: 'Collaboration',
           },
           {
             href: 'https://github.com/OpenSherlock',
