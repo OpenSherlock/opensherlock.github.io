@@ -24,7 +24,7 @@ export default function Homepage() {
               <Link
                 className="button button--secondary button--lg"
                 to="/introduction">
-                Documentation
+                Learn More
               </Link>
             </div>
           </div>
