@@ -79,8 +79,9 @@ const config = {
           },
           {
             href: 'https://github.com/OpenSherlock',
-            label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
         ],
       },
