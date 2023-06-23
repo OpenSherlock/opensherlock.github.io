@@ -24,17 +24,18 @@
 - [GraphQL](https://graphql.com/): developer-friendly query language for the modern web
 - [AsyncAPI](https://www.asyncapi.com/) for event-driven architectures
 - [Ceramic Protocol](https://blog.ceramic.network/introduction-to-the-ceramic-protocol/): smart document protocol for an open dataweb
+- [Open-SESAME](https://github.com/swabhs/open-sesame): frame-semantic parser for automatically detecting FrameNet frames and their frame-elements from sentences
 
 ## Articles, Tutorials, Demos
 
-- [Python Tutorials for NLP, ML, AI [github]](https://github.com/dcavar/python-tutorial-notebooks)
+- [Emerging Architectures for LLM Applications [a16z.com]](https://a16z.com/2023/06/20/emerging-architectures-for-llm-applications/) 20230610
+- [Llama, Alpaca and Vicuna: “Chatgpt” running on your laptop [medium]](https://medium.com/@jeremyarancio/exploring-llamas-family-models-how-we-achieved-running-llms-on-laptops-16bf2539a1bb) 20230415
+- [Building a Semantic Search Engine With OpenAI and Pinecone](https://sigmoidprime.com/post/searchthearxiv/) - [github](https://github.com/augustwester/searchthearxiv) 20230323
+- [FrameNet Parsing with Transformers [github.io]](https://chanind.github.io/ai/2022/05/24/framenet-transformers.html) 20220524
+- [Language Models are Open Knowledge Graphs .. but are hard to mine! [medium]](https://towardsdatascience.com/language-models-are-open-knowledge-graphs-but-are-hard-to-mine-13e128f3d64d) 20210117
 - [Frame Semantic Transformer [github.io]](https://frame-semantic-transformer.readthedocs.io/en/latest/)
-- [FrameNet Parsing with Transformers [github.io]](https://chanind.github.io/ai/2022/05/24/framenet-transformers.html)
 - [NLTK Sample Usage for FrameNet [nltk.org]](https://www.nltk.org/howto/framenet.html)
-- [Open-SESAME](https://github.com/swabhs/open-sesame): frame-semantic parser for automatically detecting FrameNet frames and their frame-elements from sentences
-- [Llama, Alpaca and Vicuna: “Chatgpt” running on your laptop [medium]](https://medium.com/@jeremyarancio/exploring-llamas-family-models-how-we-achieved-running-llms-on-laptops-16bf2539a1bb)
-- [Language Models are Open Knowledge Graphs .. but are hard to mine! [medium]](https://towardsdatascience.com/language-models-are-open-knowledge-graphs-but-are-hard-to-mine-13e128f3d64d)
-- [Building a Semantic Search Engine With OpenAI and Pinecone](https://sigmoidprime.com/post/searchthearxiv/) - [github](https://github.com/augustwester/searchthearxiv)
+- [Python Tutorials for NLP, ML, AI [github]](https://github.com/dcavar/python-tutorial-notebooks)
 
 ## Dataset Sources
 
@@ -61,7 +62,7 @@
 - [LLaMa Chat](https://github.com/alexrozanski/LlamaChat) allows you to chat with LLaMa, Alpaca and GPT4All models1 running locally
 - [Vicuna](https://github.com/vicuna-tools/vicuna-installation-guide)
 - [BLOOM [huggingface]](https://huggingface.co/bigscience/bloom): BigScience Large Open-science Open-access Multilingual Language Model
--
+
 ## Publications
 
 - [Duplicate question identification by integrating framenet with neural networks [acm.org]](https://dl.acm.org/doi/10.5555/3504035.3504779)
