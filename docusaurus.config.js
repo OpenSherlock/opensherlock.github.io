@@ -37,7 +37,14 @@ const config = {
           editUrl:
             'https://github.com/OpenSherlock/opensherlock.github.io/edit/main',
         },
-        blog: false,
+        blog: {
+          path: '/docs/blog/',
+          blogTitle: 'OpenSherlock Blog',
+          routeBasePath: 'docs/blog',
+          blogListComponent: '@theme/BlogListPage',
+          blogPostComponent: '@theme/BlogPostPage'
+
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -71,6 +78,11 @@ const config = {
             to: 'introduction',
             position: 'left',
             label: 'Introduction',
+          },
+          {
+            to: 'blog',
+            position: 'left',
+            label: 'OpenSherlock Blog',
           },
           {
             to: 'roadmap',
