@@ -1,5 +1,5 @@
 # Introduction
 
-- System Overview
-- Why topic mapping
+- Motivation
+- Why Topic Mapping
 - Purpose / benefits / applications
